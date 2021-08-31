@@ -1,6 +1,7 @@
 body{
 	box-sizing: border-box;
 }
+
 h1{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -12,7 +13,7 @@ div{
 	background: lightgrey;
 	margin-bottom: 10px;
 	border: 3px solid black;
-	width: 100%;
+	width: 90%;
 }
 div.row{
 	background: transparent;
@@ -45,9 +46,10 @@ p.body{
 	.col-lg-4,.col-lg-12{
 		float: left;
 		margin: 10px;
+		max-width: 100%;
 	}
 	.col-lg-4{
-		max-width: 31.64%;
+		max-width: 29.64%;
 	}
 }
 @media (min-width: 768px ) and (max-width: 991px){
@@ -55,10 +57,10 @@ p.body{
 		float: left;
 		margin: 10px;}
 	.col-md-2{		
-		max-width: 47%;
+		max-width: 46%;
 		} 
 	.col-md-1{
-		width: 97%;
+		width: 95%;
 	}
 }
 
